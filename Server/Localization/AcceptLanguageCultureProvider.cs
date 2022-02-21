@@ -13,7 +13,7 @@ namespace Remotely.Server.Localization
     {
         public AcceptLanguageCultureProvider()
         {
-            SupperCultureInfos = new[] { new CultureInfo("en-US"),new CultureInfo("de-AT") };
+            SupperCultureInfos = new[] { new CultureInfo("de-AT"),new CultureInfo("en-US") };
 
         }
 
