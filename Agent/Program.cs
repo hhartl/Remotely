@@ -55,8 +55,12 @@ namespace Remotely.Agent
             serviceCollection.AddScoped<Uninstaller>();
             serviceCollection.AddScoped<ScriptExecutor>();
             serviceCollection.AddScoped<IProcessInvoker, ProcessInvoker>();
+
             serviceCollection.AddScoped<IWebClientEx, WebClientEx>();
             
+
+            serviceCollection.AddScoped<IUpdateDownloader, UpdateDownloader>();
+
 
             if (EnvironmentHelper.IsWindows)
             {
