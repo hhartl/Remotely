@@ -56,7 +56,6 @@ namespace Remotely.Agent
             serviceCollection.AddScoped<ScriptExecutor>();
             serviceCollection.AddScoped<IProcessInvoker, ProcessInvoker>();
 
-            serviceCollection.AddScoped<IWebClientEx, WebClientEx>();
             
 
             serviceCollection.AddScoped<IUpdateDownloader, UpdateDownloader>();
